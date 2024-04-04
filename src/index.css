@@ -8,3 +8,6 @@
   --body_color: white;
   --link_color: cyan;
 }
+* {
+  transition: all 0.3s ease-in-out;
+}
