@@ -3,6 +3,9 @@
   font-weight: normal;
   margin-bottom: 20px;
 }
+[data-theme="dark"] .sidebar-title {
+  color: white;
+}
 
 .sidebar-items {
   margin-top: 20px;
@@ -34,6 +37,9 @@
   width: 20px;
   background-color: #eee;
   border-radius: 50%;
+}
+[data-theme="dark"] .inputs {
+  color: white;
 }
 
 .all {

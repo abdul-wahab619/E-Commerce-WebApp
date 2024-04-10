@@ -40,6 +40,7 @@ const Nav = ({ handleInputChange, query }) => {
           </a>
           {isAuthenticated ? (
             <button
+              className="nav-btn"
               onClick={(e) => {
                 toast.success("Successfully logged out");
                 logout();
@@ -49,6 +50,7 @@ const Nav = ({ handleInputChange, query }) => {
             </button>
           ) : (
             <button
+              className="nav-btn"
               onClick={(e) => {
                 toast.success("Successfully logged in");
                 loginWithRedirect();

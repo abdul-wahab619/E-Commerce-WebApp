@@ -16,16 +16,35 @@ input {
   margin-right: 20px;
   border-radius: 5px;
   position: relative;
-  width: 14rem;
+  width: 20rem;
+  transition: box-shadow 0.3s ease; /* Add transition effect for both themes */
 }
 
-.profile-container{
+input:focus {
+  box-shadow: 0 0 5px 0 rgba(25, 5, 1, 0.5); /* Default focus shadow */
+}
+
+[data-theme="dark"] input:focus {
+  box-shadow: 0 0 5px 0 rgba(25, 5, 1, 0.5); /* Dark theme focus shadow */
+}
+
+.profile-container {
   display: flex;
 }
-
+[data-theme="dark"] .profile-container a {
+  color: white;
+}
 .nav-icons {
   width: 1.5rem;
   height: 1.5rem;
   margin-left: 2rem;
-  
+}
+.nav-btn {
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 0 10px;
+  background-color: cyan;
+  border: none;
 }

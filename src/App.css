@@ -28,4 +28,12 @@ li {
   border-radius: 5px;
   color: var(--body-color);
   cursor: pointer;
+  font-weight: bold;
+}
+[data-theme="dark"] .btns {
+  color: white;
+}
+.btns:hover {
+  background-color: lightgrey;
+  color: white;
 }

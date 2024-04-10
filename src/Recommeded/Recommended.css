@@ -9,3 +9,6 @@
   margin-top: 20px;
   font-size: 20px;
 }
+[data-theme="dark"] .recommended-title {
+  color: white;
+}

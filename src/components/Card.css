@@ -1,0 +1,20 @@
+.card-title {
+  background-color: var(
+    --body_background
+  ); /* Background color based on theme */
+  color: var(--body_color); /* Text color based on theme */
+  transition: all 0.3s ease-in-out; /* Transition effect */
+}
+
+[data-theme="dark"] .card-title {
+  color: var(--link_color); /* Text color for dark theme */
+}
+[data-theme="dark"] .total-reviews {
+  color: var(--body_color);
+}
+[data-theme="dark"] .card-price {
+  color: var(--body_color);
+}
+[data-theme="dark"] .bag-icon {
+  color: var(--body_color);
+}
